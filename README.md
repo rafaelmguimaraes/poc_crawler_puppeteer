@@ -25,20 +25,24 @@ Este projeto é uma API construída com Node.js e Express, que utiliza Puppeteer
 
 ## Estrutura do projeto
 
+```shell
 /app 
 ├── src/ 
 │ └── index.js # Código principal da API 
-├── Dockerfile # Configuração do Docker 
+├── .gitignore # Arquivos e pastas ignorados pelo Git
 ├── docker-compose.yml # Configuração do Docker Compose 
-└── package.json # Dependências do projeto
+├── Dockerfile # Configuração do Docker 
+├── package.json # Dependências do projeto
+└── README.md # Documentação do projeto
 
+```
 
 ## Instruções de instalação e execução
 
 ### 1. Clone o repositório
 
 ```bash
-git clone https://github.com/seu-repositorio/api-crawler.git
+git clone https://github.com/rafaelmguimaraes/poc_crawler_puppeteer
 cd api-crawler
 ```
 
