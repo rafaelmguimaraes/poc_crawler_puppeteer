@@ -1,0 +1,16 @@
+{
+  "name": "api_crawler",
+  "version": "1.0.0",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "express": "^4.21.0",
+    "puppeteer": "^23.4.0"
+  }
+}
